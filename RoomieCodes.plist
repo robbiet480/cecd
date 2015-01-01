@@ -59,17 +59,27 @@
 			<string>tx 30:44:74</string>
 			<key>GUIDE</key>
 			<string>tx 30:44:53</string>
-			<key>HDMI1</key>
+			<key>INPUT HDMI 1</key>
 			<string>tx 3f:82:10:00</string>
-			<key>HDMI2</key>
+			<key>INPUT HDMI 2</key>
 			<string>tx 3f:82:20:00</string>
-			<key>HDMI3</key>
+			<key>INPUT HDMI 3</key>
 			<string>tx 3f:82:30:00</string>
-			<key>HDMI4</key>
+			<key>INPUT HDMI 4</key>
 			<string>tx 3f:82:40:00</string>
+      <key>INPUT HDMI 5</key>
+      <string>tx 3f:82:50:00</string>
+      <key>INPUT HDMI 6</key>
+      <string>tx 3f:82:60:00</string>
+      <key>INPUT HDMI 7</key>
+      <string>tx 3f:82:70:00</string>
+      <key>INPUT HDMI 8</key>
+      <string>tx 3f:82:80:00</string>
+      <key>INPUT HDMI 9</key>
+      <string>tx 3f:82:90:00</string>
 			<key>INFO</key>
 			<string>tx 30:44:35</string>
-			<key>INPUT</key>
+			<key>INPUT TOGGLE</key>
 			<string>tx 30:44:34</string>
 			<key>MUTE TOGGLE</key>
 			<string>tx 30:44:43</string>
@@ -78,7 +88,7 @@
 			<key>PAGE UP</key>
 			<string>tx 30:44:37</string>
 			<key>POWER OFF</key>
-			<string>tx 30:44:6D</string>
+			<string>tx 30:44:6C</string>
 			<key>POWER ON</key>
 			<string>tx 30:44:6D</string>
 			<key>POWER TOGGLE</key>
