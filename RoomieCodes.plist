@@ -2,23 +2,93 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-    <dict>
+	<dict>
 		<key>brand</key>
 		<string>piRemote</string>
 		<key>cat</key>
 		<string>piRemote</string>
 		<key>codes</key>
 		<dict>
+			<key>CHANNEL DOWN</key>
+			<string>tx 30:44:31</string>
+			<key>CHANNEL UP</key>
+			<string>tx 30:44:30</string>
+			<key>CURSOR DOWN</key>
+			<string>tx 30:44:02</string>
+			<key>CURSOR ENTER</key>
+			<string>tx 30:44:00</string>
+			<key>CURSOR LEFT</key>
+			<string>tx 30:44:03</string>
+			<key>CURSOR RIGHT</key>
+			<string>tx 30:44:04</string>
+			<key>CURSOR UP</key>
+			<string>tx 30:44:01</string>
+			<key>DIGIT 0</key>
+			<string>tx 30:44:20</string>
+			<key>DIGIT 1</key>
+			<string>tx 30:44:21</string>
+			<key>DIGIT 2</key>
+			<string>tx 30:44:22</string>
+			<key>DIGIT 3</key>
+			<string>tx 30:44:23</string>
+			<key>DIGIT 4</key>
+			<string>tx 30:44:24</string>
+			<key>DIGIT 5</key>
+			<string>tx 30:44:25</string>
+			<key>DIGIT 6</key>
+			<string>tx 30:44:26</string>
+			<key>DIGIT 7</key>
+			<string>tx 30:44:27</string>
+			<key>DIGIT 8</key>
+			<string>tx 30:44:28</string>
+			<key>DIGIT 9</key>
+			<string>tx 30:44:29</string>
+			<key>DIGIT ENTER</key>
+			<string>tx 30:44:2B</string>
+			<key>DIGIT SEPARATOR</key>
+			<string>tx 30:44:2A</string>
+			<key>EXIT</key>
+			<string>tx 30:44:0D</string>
+			<key>FUNCTION BLUE</key>
+			<string>tx 30:44:71</string>
+			<key>FUNCTION GREEN</key>
+			<string>tx 30:44:73</string>
+			<key>FUNCTION RED</key>
+			<string>tx 30:44:72</string>
+			<key>FUNCTION YELLOW</key>
+			<string>tx 30:44:74</string>
+			<key>GUIDE</key>
+			<string>tx 30:44:53</string>
 			<key>HDMI1</key>
 			<string>tx 3f:82:10:00</string>
 			<key>HDMI2</key>
 			<string>tx 3f:82:20:00</string>
 			<key>HDMI3</key>
 			<string>tx 3f:82:30:00</string>
-			<key>Off</key>
-			<string>tx 30:36</string>
-			<key>On</key>
-			<string>tx 30:04</string>
+			<key>HDMI4</key>
+			<string>tx 3f:82:40:00</string>
+			<key>INFO</key>
+			<string>tx 30:44:35</string>
+			<key>INPUT</key>
+			<string>tx 30:44:34</string>
+			<key>MUTE TOGGLE</key>
+			<string>tx 30:44:43</string>
+			<key>PAGE DOWN</key>
+			<string>tx 30:44:38</string>
+			<key>PAGE UP</key>
+			<string>tx 30:44:37</string>
+			<key>POWER OFF</key>
+			<string>tx 30:44:6D</string>
+			<key>POWER ON</key>
+			<string>tx 30:44:6D</string>
+			<key>POWER TOGGLE</key>
+			<string>tx 30:44:40</string>
+			<key>PREVIOUS CHANNEL</key>
+			<string>tx 30:44:32</string>
+			<key>VOLUME DOWN</key>
+			<string>tx 30:44:42</string>
+			<key>VOLUME UP</key>
+			<string>tx 30:44:41</string>
 		</dict>
 		<key>method</key>
 		<string>lineio</string>
