@@ -67,16 +67,16 @@
 			<string>tx 3f:82:30:00</string>
 			<key>INPUT HDMI 4</key>
 			<string>tx 3f:82:40:00</string>
-      <key>INPUT HDMI 5</key>
-      <string>tx 3f:82:50:00</string>
-      <key>INPUT HDMI 6</key>
-      <string>tx 3f:82:60:00</string>
-      <key>INPUT HDMI 7</key>
-      <string>tx 3f:82:70:00</string>
-      <key>INPUT HDMI 8</key>
-      <string>tx 3f:82:80:00</string>
-      <key>INPUT HDMI 9</key>
-      <string>tx 3f:82:90:00</string>
+			<key>INPUT HDMI 5</key>
+			<string>tx 3f:82:50:00</string>
+			<key>INPUT HDMI 6</key>
+			<string>tx 3f:82:60:00</string>
+			<key>INPUT HDMI 7</key>
+			<string>tx 3f:82:70:00</string>
+			<key>INPUT HDMI 8</key>
+			<string>tx 3f:82:80:00</string>
+			<key>INPUT HDMI 9</key>
+			<string>tx 3f:82:90:00</string>
 			<key>INFO</key>
 			<string>tx 30:44:35</string>
 			<key>INPUT TOGGLE</key>
