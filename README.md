@@ -11,11 +11,11 @@ on a Raspberry Pi, but may be modified to run in any environment supported by
 libCEC with an attached CEC-capable HDMI interface.
 
 To manually run, you can use the command:
-`socat tcp-listen:2600,reuseaddr,fork exec:"/usr/bin/cec-client $CEC_CLIENT_ARGS"`. However, this will kill cec-client after every connection is closed. As a hack-around, you can put the following commands into a script and run that to keep cec-client always running:
+`socat tcp-listen:2600,reuseaddr,fork exec:"/usr/bin/cec-client -m"`. However, this will kill cec-client after every connection is closed and has a short delay when starting cec-client back up. As a hack-around, you can put the following commands into a script and run that to keep cec-client always running:
 ```bash
-( ./socat -d -d PTY,raw,echo=0,link=/dev/ttyVA00 exec:"/usr/bin/cec-client $CEC_CLIENT_ARGS" ) &
+( socat -d -d PTY,raw,echo=0,link=/dev/ttyVA00 exec:"/usr/bin/cec-client $CEC_CLIENT_ARGS" ) &
 sleep 5s
-( ./socat -d -d open:/dev/ttyVA00,nonblock,echo=0,raw TCP-LISTEN:2600,reuseaddr,fork ) &
+( socat -d -d open:/dev/ttyVA00,nonblock,echo=0,raw TCP-LISTEN:2600,reuseaddr,fork ) &
 ```
 
 I'm looking into a better way around this, including writing a little daemon that instead of using cec-client and socat.
